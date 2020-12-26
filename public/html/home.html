@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <title>Browser Game</title>
+    <meta name="viewport" content="width=320, initial-scale=1" />
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <script defer src="../../interact.js"></script>
+    <script defer src="../../server.js"></script>
+  </head>
+  <body>
+    <div id="primary">
+      <!-- enemy location -->
+      <div id="enemyContainer">
+        <div id="enemyHealthContainer">
+          <h3 id="enemyHealth">10/10</h3>
+        </div>
+        <div id="enemyNameContainer">
+          <h1 id="enemyName">Giant Rat</h1>
+        </div>
+      </div>
+
+      <!-- combat buttons -->
+      <div id="combatButtonsContainer">
+        <button id="firstPC" class="combatButtons">Fighter</button>
+        <button id="secondPC" class="combatButtons">Rogue</button>
+        <button id="thirdPC" class="combatButtons">Mage</button>
+      </div>
+
+      <!-- Character Sheets -->
+      <div id="characterSheetContainer">
+        <div id="char1" class="charSheets">
+          <div id="characterLevel">
+            <h2>Level: 1</h2>
+          </div>
+          <div class="charStats">
+            <h2>HP: 10</h2>
+            <h2>WPN: Sword</h2>
+            <h2>DMG: 1</h2>
+          </div>
+        </div>
+        <div id="char2" class="charSheets">
+          <div id="characterLevel">
+            <h2>Level: 1</h2>
+          </div>
+          <div class="charStats">
+            <h2>HP: 10</h2>
+            <h2>WPN: Knife</h2>
+            <h2>DMG: 1</h2>
+          </div>
+        </div>
+        <div id="char3" class="charSheets">
+          <div id="characterLevel">
+            <h2>Level: 1</h2>
+          </div>
+          <div class="charStats">
+            <h2>HP: 10</h2>
+            <h2>WPN: Spark</h2>
+            <h2>DMG: 1</h2>
+          </div>
+        </div>
+      </div>
+
+      <!-- Start Game -->
+      <div id="startButtonContainer">
+        <button id="startButton">Start Game</button>
+      </div>
+      
+    </div>
+  </body>
+</html>
