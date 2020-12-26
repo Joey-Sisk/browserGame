@@ -1,0 +1,139 @@
+:root {
+  --black: #000000;
+  --darkGrey: #393e4e;
+  --grey: #61697e;
+  --lightGrey: #8c9bb0;
+  --lightestGrey: #b5c8d5;
+  --white: #ffffff;
+  --darkestBlue: #2e4a54;
+  --darkBlue: #40408e;
+  --blue: #4f57db;
+  --lightBlue: #718ed5;
+  --green: #5fba73;
+  --lightGreen: #86ca95;
+  --brown: #8d5c54;
+  --tan: #c68777;
+  --lightTan: #e9b6a0;
+  --offWhite: #f7dcc8;
+  --darkestRed: #6c1e1e;
+  --darkRed: #ad1818;
+  --red: #f00800;
+  --pink: #f58b91;
+  --mainFont: 'Courier New', monospace;
+}
+
+body {
+  background-color: var(--lightestGrey);
+}
+
+.combatButtonsContainer {
+  display: flex;
+  justify-content: space-around;
+}
+
+.combatButtons {
+  border: 4px solid var(--darkBlue);
+  border-radius: .5rem;
+  background-image: linear-gradient(var(--lightBlue), var(--blue));
+  font-family: var(--mainFont);
+  font-weight: bold;
+  display: inline-block;
+  letter-spacing: .4em;
+  color: var(--white);
+  padding: auto;
+  height: 6rem;
+  width: 12rem;
+  font-size: 1rem;
+  margin-top: .2rem;
+  margin-bottom: .2rem;
+}
+
+#enemyHealthContainer {
+  padding-top: .5rem;
+}
+
+#enemyHealth {
+  font-family: var(--mainFont);
+  text-align: center;
+  color: var(--red);
+}
+
+#enemyName {
+  font-family: var(--mainFont);
+  font-weight: bold;
+  color: var(--white);
+  text-align: center;
+  font-size: 3rem;
+}
+
+#primary {
+  max-width: 48rem;
+  margin: 0 auto;
+}
+
+#enemyContainer {
+  border: 4px solid var(--brown);
+  border-radius: .5rem;
+  background-image: linear-gradient(var(--lightGreen), var(--green));
+  height: 250px;
+  margin-bottom: .2rem;
+}
+
+#characterSheetContainer {
+  border: 4px solid var(--darkBlue);
+  border-radius: .5rem;
+  background-image: linear-gradient(var(--lightBlue), var(--blue));
+  height: 250px;
+  margin-top: .2rem;
+}
+
+#characterWeapon {
+  font-family: var(--mainFont);
+  text-align: center;
+  color: var(--white);
+}
+
+#characterLevel {
+  font-family: var(--mainFont);
+  text-align: center;
+  color: var(--white);
+}
+
+#startButtonContainer {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 6rem;
+}
+
+#startButton {
+  border: 4px solid var(--darkBlue);
+  border-radius: .5rem;
+  background-image: linear-gradient(var(--lightBlue), var(--blue));
+  font-family: var(--mainFont);
+  font-weight: bold;
+  display: inline-block;
+  letter-spacing: .4em;
+  color: var(--white);
+  padding: auto;
+  height: 6rem;
+  width: 12rem;
+  font-size: 1rem;
+}
+
+@media screen and (min-width: 60em) {
+  .combatButtons { 
+    height: 10rem;
+    width: 20rem;
+    font-size: 2rem;
+    margin: 1rem;
+  }
+}
+
+@media screen and (max-width: 60em) and (min-width: 30em) {
+  .combatButtons {
+    height: 8rem;
+    width: 16rem;
+    font-size: 1.5rem;
+    margin: .5rem;
+  }
+}

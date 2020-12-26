@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <title>Eldclick</title>
+    <meta name="viewport" content="width=320, initial-scale=1" />
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="gameScreen.js"></script>
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <div id="primary">
+      <!-- enemy location -->
+      <div id="enemyContainer">
+        <div id="enemyHealthContainer">
+          <h3 id="enemyHealth">100/100</h3>
+        </div>
+        <div id="enemyNameContainer">
+          <h1 id="enemyName">MONSTER</h1>
+        </div>
+      </div>
+
+      <!-- combat buttons -->
+      <div class="combatButtonsContainer">
+        <button id="firstPC" class="combatButtons">Ed</button>
+        <button id="secondPC" class="combatButtons">Edd</button>
+        <button id="thirdPC" class="combatButtons">Eddy</button>
+      </div>
+
+      <!-- Character Sheeta -->
+      <div id="characterSheetContainer">
+        <div id="characterLevel">
+          <h2>Level: 1</h2>
+        </div>
+        <div id="characterWeapon">
+          <h2>Weapon: Fists / 1dmg</h2>
+        </div>
+      </div>
+
+      <!-- Start Game -->
+      <div id="startButtonContainer">
+        <button id="startButton">Start Game</button>
+      </div>
+    </div>
+  </body>
+</html>
