@@ -15,8 +15,8 @@ app.get("/", function (req, res) {
 });
 
 app.get("/custom", function (req, res) {
-  res.sendFile(path.join(__dirname, "./public/html/custom.html"))
-})
+  res.sendFile(path.join(__dirname, "./public/html/custom.html"));
+});
 
 // app.get("*", function(req, res) {
 //   res.send("Sending you the homepage");
