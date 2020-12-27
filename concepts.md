@@ -1,4 +1,4 @@
-#Simple browser game
+# Simple browser game
 
 This game will feature 3 heroes that will be controlled by the player.
 Eventually I'd like to make the heroes customizable, but for now we can use default characters.
@@ -20,3 +20,13 @@ During the players turn they should be able to use items such as healing potion,
 
 I am open to any new ideas or reworking of my current ideas. 
 The gameplay should be simple, quick, and also at least somewhat balanced. 
+
+## Some things im still undecided about:
+Should the heroes and monsters do fixed damage based on their weapons and level, or randomly picking based on their weapons and stats from a range?
+I think fixed would feel more consistant and balenced but random has a more classic rpg feel to it.
+
+Also when leveling should the heroes get fixed stat updrades, or should they be allowed to choose where to allocate points?
+
+Should there be a store where the heroes can purchase new items and upgrades or should they only find those things from loot?
+
+Should the monster come from a predetermined list or should we builed it based on the stats of the player characters? Same for the heroes and items.
