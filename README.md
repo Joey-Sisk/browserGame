@@ -19,16 +19,6 @@ This is a browser based game built by the 2020-2021 UT Coding Bootcamp. In this 
 
 * [Questions](#questions)
 
-## Screenshot
-
-![Finished Page](./images/screenshot3.jpg)
-![Top of code](./images/screenshot.jpg)
-![Testing Validation](./images/screenshot2.jpg)
-
-## Video
-
-[Video Walkthrough](https://drive.google.com/file/d/126ne6j0bfUKt9ZJVFYOIBacbD9xBtbPL/view)
-
 ## Installation
 
 To install necessary dependencies, run the following command:
